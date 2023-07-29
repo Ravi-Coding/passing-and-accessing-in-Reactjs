@@ -1,4 +1,5 @@
 .container {
+  background-color: #00ffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +21,7 @@
   margin-bottom: 20px;
 }
 
-.button {
+.button1 {
   font-size: 16px;
   font-weight: 400;
   font-family: 'Roboto';
@@ -30,7 +31,21 @@
   padding-right: 15px;
   padding-left: 15px;
   margin: 8px;
-  background-color: #7c69e9;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+}
+.button2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 8px;
+  background-color: red;
   border: none;
   border-radius: 4px;
 }

@@ -1,6 +1,6 @@
-import Welcome from './components/Welcome'
+import Counter from './components/Counter'
 
 const App = () => {
-  return <Welcome name="Ravindra" />
+  return <Counter />
 }
 export default App
